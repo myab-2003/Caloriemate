@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "957397072386",
+    "project_id": "caloriemate-32779",
+    "storage_bucket": "caloriemate-32779.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957397072386:android:5916aea3f8d389a6e2051b",
+        "android_client_info": {
+          "package_name": "com.example.caloriemate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Wh1Nwg8zusdmJX1XhKOyjFEEQohdZyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
