@@ -1,4 +1,3 @@
-import 'package:caloriemate/Core/Utils/constants.dart';
 import 'package:caloriemate/Features/Welcome_Screen/presentation/view/welcomebody.dart';
 import 'package:flutter/material.dart';
 

@@ -84,11 +84,11 @@ class OrderSummaryCard extends StatelessWidget {
             isEnabled:
                 (consumedCalories < allowedCalories * 0.9 &&
                 consumedCalories != allowedCalories * 0.9 &&
-                consumedCalories! > allowedCalories * 0.8),
+                consumedCalories > allowedCalories * 0.8),
             onPressed:
                 (consumedCalories < allowedCalories * 0.9 &&
                     consumedCalories != allowedCalories * 0.9 &&
-                    consumedCalories! > allowedCalories * 0.8)
+                    consumedCalories > allowedCalories * 0.8)
                 ? onPlaceOrder
                 : null,
           ),

@@ -38,7 +38,7 @@ class OrderItemCard extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Networkimage(
-            imageUrl: '${food.imageUrl}',
+            imageUrl: food.imageUrl,
             h: SizeConfig.defaultSize! * 8,
             w: SizeConfig.defaultSize! * 8,
           ),
@@ -48,7 +48,7 @@ class OrderItemCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 CustomText(
-                  title: '${food.foodName}',
+                  title: food.foodName,
                   style: Styles.textStyle16,
                 ),
                 SizedBox(height: SizeConfig.defaultSize! * .5),

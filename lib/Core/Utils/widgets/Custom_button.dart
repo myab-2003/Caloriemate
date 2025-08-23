@@ -2,7 +2,7 @@ import 'package:caloriemate/Core/Utils/size_confige.dart';
 import 'package:flutter/material.dart';
 
 class MainCustombuttons extends StatelessWidget {
-  MainCustombuttons({
+  const MainCustombuttons({
     super.key,
     required this.buttonname,
     required this.OnTap,

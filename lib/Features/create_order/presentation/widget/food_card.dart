@@ -45,13 +45,13 @@ class FoodCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(height: SizeConfig.defaultSize! * .5),
-              Networkimage(imageUrl: '${food.imageUrl}' , h:  SizeConfig.defaultSize! * 20 , w: SizeConfig.defaultSize! * 20,),
+              Networkimage(imageUrl: food.imageUrl , h:  SizeConfig.defaultSize! * 20 , w: SizeConfig.defaultSize! * 20,),
               SizedBox(height: SizeConfig.defaultSize! * .5),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CustomText(
-                    title: '${food.foodName}',
+                    title: food.foodName,
                     style: Styles.textStyle16,
                   ),
                   const SizedBox(width: 2),
@@ -66,7 +66,7 @@ class FoodCard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CustomText(
-                    title: '\$${fixedPrice}',
+                    title: '\$$fixedPrice',
                     style: Styles.textStyle16,
                   ),
                   SizedBox(width: SizeConfig.defaultSize! * 1),

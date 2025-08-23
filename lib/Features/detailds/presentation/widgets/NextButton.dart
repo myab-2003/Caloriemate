@@ -23,7 +23,7 @@ class NextButton extends StatelessWidget {
         color: isEnabled ? kPrimaryColor : Kbuttoncolor,
         borderRadius: BorderRadius.circular(10),
         child: InkWell(
-          onTap: onPressed ?? null,
+          onTap: onPressed,
           borderRadius: BorderRadius.circular(10),
           child: SizedBox(
             height: SizeConfig.defaultSize! * 6,

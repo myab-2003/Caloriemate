@@ -1,4 +1,3 @@
-import 'package:caloriemate/Core/Utils/size_confige.dart';
 import 'package:flutter/material.dart';
 
 class Networkimage extends StatelessWidget {
